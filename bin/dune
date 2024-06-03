@@ -1,0 +1,6 @@
+(executable
+ (public_name mew)
+ (name main)
+ (modes byte exe)
+ (libraries lib_a lib_b)
+ (promote (until-clean)))
