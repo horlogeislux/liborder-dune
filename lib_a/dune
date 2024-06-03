@@ -4,4 +4,5 @@
    (-w +a-70))))
 
 (library
+ (wrapped false)
  (name lib_a))
