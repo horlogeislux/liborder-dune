@@ -1,2 +1,7 @@
+(env
+ (_
+  (flags
+   (-w +a-70))))
+
 (library
  (name lib_b))
