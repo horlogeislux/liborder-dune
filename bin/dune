@@ -6,6 +6,7 @@
 (executable
  (public_name liborder)
  (name main)
+ (ocamlopt_flags (:standard -linkall))
  (libraries lib_a lib_b) ; enabling this line ensures ocamlopt prints an error
 ;  (libraries lib_b lib_a) ; enablign this line instead silences the error
  (promote (until-clean)))
