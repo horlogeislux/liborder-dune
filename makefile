@@ -1,7 +1,7 @@
-mew:
+liborder:
 	dune build --verbose
 
 clean:
 	dune clean
 
-.PHONY: mew clean
+.PHONY: liborder clean

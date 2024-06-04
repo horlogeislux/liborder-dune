@@ -4,8 +4,7 @@
    (-w +a-70))))
 
 (executable
- (public_name mew)
+ (public_name liborder)
  (name main)
- (modes byte exe)
  (libraries lib_a lib_b)
  (promote (until-clean)))
